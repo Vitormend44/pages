@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <main>
+        
+        <label class="label-ambos">
+            Converter <b>DE</b> 
+            <select class="select">
+                <option class="opcao">R$ Real Brasileiro</option>
+            </select>
+        </label>
+        
+       <label class="label-ambos">
+        <b>PARA</b> 
+            <select class="select-se">
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="bitcoin">BTC Bitcoin</option>
+                <option value="libra">£ Libra</option>
+            </select>
+       </label>
+
+       <label>
+        <p class="value-p"><b>Valor</b></p>
+        <input class="input-valor" placeholder="R$ 50.000,00" type="number">
+       </label>
+
+       <button class="botao">Converter</button>
+
+       <section class="sessao">
+        <div class="container">
+            <img src="./img/real.png" class="img-pequena" alt="real">
+            <p class="currency-pharagraf">Real</p>
+            <p class="valor-convertido">R$ 0,00</p>
+        </div>
+
+        <img src="./img/arrow.logo(m).png" alt="seta-logo" class="arrow">
+        
+        <div class="container">
+            <img src="./img/dolar.png" class="currency-img" alt="dolar">
+            <p class="currency">Dólar Americano</p>
+            <p class="valor-convertido-2">US$ 0,00</p>
+        </div>
+       </section>
+
+    </main>
+
+</body>
+<script src="./js-script.js"></script>
+</html>

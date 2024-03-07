@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+main {
+    background-color: aquamarine;
+    width: 25%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.select, .select-se {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.currency, .currency-pharagraf {
+    color: #505050;
+    margin-top: 3px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.value-p {
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.input-valor {
+
+    display: flex;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.botao {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(77,244,147,1) 82%);
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: gold;
+    box-shadow: 5px 8px 18px gray;
+}
+
+.botao:active {
+    opacity: 0.5;
+}
+
+.sessao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.valor-convertido, .valor-convertido-2 {
+    margin-top: 7px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: fantasy;
+    font-style: italic;
+}
+
+.arrow {
+    width: 70px;
+    margin: 7px 0px;
+}
+
+.img-pequena {
+    margin-top: -2px;
+}
+
+@media screen and (max-width: 900px){
+    main {
+        width: 55%;
+    }
+    
+}
+
+@media (max-width: 480px){
+    main {
+        width: 200px;
+    }
+}
+
